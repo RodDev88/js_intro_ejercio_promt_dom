@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Js intro prompt y manipulación dom</title>
+  </head>
+  <body>
+    <p>
+      El arredandor declara que es propietario del inmueble, <br />
+      ubicado en <span id="calle-n"></span>, departamento
+      <span id="dpto-n"></span>, de la comuna de
+      <span id="comuna"></span>
+    </p>
+
+    <script>
+      calle = document.querySelector("#calle-n");
+      calle.innerHTML = "Miguel Claro 4442";
+
+      dpto = document.querySelector("#dpto-n");
+      dpto.innerHTML = "234";
+
+      comuna = document.querySelector("#comuna");
+
+      comuna.innerHTML = "Providencia";
+    </script>
+  </body>
+</html>
